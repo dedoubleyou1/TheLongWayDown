@@ -1,12 +1,15 @@
 {
-	"title": "The Long Way Down",
-	"name": "The Long Way Down",
-	"description": "Game Jam Project",
-	"devDependencies": {
-		"webpack": "^3.8.1"
+	"name": "TheLongWayDown",
+	"version": "1.0.0",
+	"description": "The Long Way Down",
+	"repository": "",
+	"scripts": {
+		"build": "tsc --outFile ./bin/js/game.js"
 	},
-	"dependencies": {
-		"phaser": "^2.6.2",
+	"license": "None",
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^8.0.53",
 		"typescript": "^2.6.2"
 	}
 }
